@@ -1,5 +1,5 @@
 package ru.netology.domain;
-//Ссылка на страницу с заголовком и фотографией.
+//блок с ссылкой на страницу с заголовком и фотографией.
 public class Link {
     private String linkId;
     private String linkHeading;
@@ -20,14 +20,6 @@ public class Link {
 
     public void setLinkHeading(String linkHeading) {
         this.linkHeading = linkHeading;
-    }
-
-    public String getLinkText() {
-        return linkText;
-    }
-
-    public void setLinkText(String linkText) {
-        this.linkText = linkText;
     }
 
     public String getLinkImageUrl() {

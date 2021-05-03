@@ -1,5 +1,5 @@
 package ru.netology.domain;
-
+//блок с видео
 public class Video {
     private String videoId;
     private String videoImageUrl;

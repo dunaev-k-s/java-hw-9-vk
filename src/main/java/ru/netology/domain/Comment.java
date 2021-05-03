@@ -1,5 +1,5 @@
 package ru.netology.domain;
-
+//блок комментария
 public class Comment {
     private String commentId;
     private String commentName;
@@ -7,6 +7,7 @@ public class Comment {
     private String commentText;
     private String commentDate;
     private String commentTime;
+    private ReplyInfo replyInfo;
 
     public String getCommentId() {
         return commentId;

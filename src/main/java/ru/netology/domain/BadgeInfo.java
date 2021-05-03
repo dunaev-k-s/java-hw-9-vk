@@ -1,6 +1,6 @@
 package ru.netology.domain;
 //Значки: Лайк,Репост,Просмотры.
-public class Badges {
+public class BadgeInfo {
     private String badgesId;
     private String badgesQuantity;
     private String badgesImage;
